@@ -29,6 +29,9 @@ ALLOWED_ORIGINS = [
     # Vercel preview deployments (any subdomain)
     "https://healthcare-recommendation-surya.vercel.app",
     "https://healthcare-recommendation-suryavelchoudry.vercel.app",
+    # Actual deployed Vercel URL
+    "https://frontend-plum-nine-75.vercel.app",
+    "https://frontend-pzhyzbeok-suryas-projects-d246e151.vercel.app",
 ] + _EXTRA_ORIGINS
 
 app.add_middleware(
