@@ -1,0 +1,1108 @@
+{
+  "symptoms": [
+    "fever", "cough", "sore_throat", "runny_nose", "body_aches", "fatigue",
+    "headache", "chills", "shortness_of_breath", "chest_pain", "wheezing",
+    "nausea", "vomiting", "diarrhea", "abdominal_pain", "frequent_urination",
+    "excessive_thirst", "blurred_vision", "dizziness", "heart_palpitations",
+    "sweating", "joint_pain", "joint_stiffness", "skin_rash", "hair_loss",
+    "weight_gain", "weight_loss", "appetite_loss", "insomnia", "mood_swings",
+    "anxiety_feeling", "difficulty_concentrating", "muscle_weakness",
+    "numbness_tingling", "burning_sensation", "skin_itching", "swelling",
+    "lower_back_pain", "neck_pain", "eye_redness"
+  ],
+  "diseases": [
+    {
+      "id": "common_cold",
+      "name": "Common Cold",
+      "description": "A mild viral infection of the upper respiratory tract caused by rhinoviruses. It is highly contagious and spreads through droplets or contact with infected surfaces.",
+      "severity": "mild",
+      "primary_symptoms": ["runny_nose", "sore_throat", "cough", "headache"],
+      "secondary_symptoms": ["fatigue", "fever", "body_aches"],
+      "medications": [
+        {
+          "name": "Paracetamol",
+          "generic_name": "Acetaminophen",
+          "dosage": "500mg–1000mg every 4–6 hours as needed",
+          "max_daily": "4000mg",
+          "usage": "Relieves mild fever and pain associated with cold symptoms",
+          "side_effects": ["Nausea", "Stomach upset", "Liver damage on overdose"],
+          "contraindications": ["Severe liver disease", "Alcohol dependency", "G6PD deficiency"],
+          "category": "Analgesic/Antipyretic",
+          "requires_prescription": false
+        },
+        {
+          "name": "Cetirizine",
+          "generic_name": "Cetirizine hydrochloride",
+          "dosage": "10mg once daily",
+          "max_daily": "10mg",
+          "usage": "Relieves runny nose, sneezing, and nasal congestion",
+          "side_effects": ["Drowsiness", "Dry mouth", "Headache", "Fatigue"],
+          "contraindications": ["Severe kidney disease", "Known hypersensitivity to cetirizine"],
+          "category": "Antihistamine",
+          "requires_prescription": false
+        },
+        {
+          "name": "Pseudoephedrine",
+          "generic_name": "Pseudoephedrine hydrochloride",
+          "dosage": "60mg every 4–6 hours",
+          "max_daily": "240mg",
+          "usage": "Nasal decongestant that reduces nasal congestion and stuffiness",
+          "side_effects": ["Insomnia", "Increased heart rate", "Nervousness", "Elevated blood pressure"],
+          "contraindications": ["Hypertension", "Heart disease", "MAO inhibitor use", "Hyperthyroidism"],
+          "category": "Decongestant",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "Focus on warm, soothing foods and adequate hydration to support immune recovery and ease symptoms.",
+        "foods_to_eat": [
+          "Warm chicken soup or broth",
+          "Honey and ginger tea",
+          "Citrus fruits (oranges, lemons) rich in Vitamin C",
+          "Garlic and onions for antimicrobial properties",
+          "Yogurt with live cultures to support gut immunity",
+          "Leafy greens and vegetables rich in antioxidants",
+          "Oatmeal for sustained energy"
+        ],
+        "foods_to_avoid": [
+          "Dairy products that may thicken mucus",
+          "Sugary snacks and desserts that suppress immunity",
+          "Fried and fatty foods that slow digestion",
+          "Alcohol which dehydrates and impairs immunity"
+        ],
+        "hydration": "Drink at least 8–10 glasses of water daily. Warm herbal teas, clear broths, and warm lemon water are highly beneficial."
+      },
+      "lifestyle": {
+        "exercise": "Avoid strenuous exercise. Light walking indoors is acceptable if you feel up to it. Rest is the priority.",
+        "sleep": "Aim for 9–10 hours of sleep per night. Elevate your head with an extra pillow to ease nasal congestion.",
+        "stress_management": "Practice relaxation techniques such as deep breathing and meditation to allow your immune system to focus on recovery.",
+        "general_tips": [
+          "Wash hands frequently with soap and water for at least 20 seconds",
+          "Use a humidifier to add moisture to indoor air",
+          "Avoid close contact with others to prevent spreading the virus",
+          "Gargle with warm salt water to soothe a sore throat"
+        ]
+      }
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza",
+      "description": "A contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs. Influenza is more severe than the common cold.",
+      "severity": "moderate",
+      "primary_symptoms": ["fever", "chills", "body_aches", "fatigue", "headache"],
+      "secondary_symptoms": ["cough", "sore_throat", "sweating"],
+      "medications": [
+        {
+          "name": "Oseltamivir",
+          "generic_name": "Oseltamivir phosphate",
+          "dosage": "75mg twice daily for 5 days",
+          "max_daily": "150mg",
+          "usage": "Antiviral agent that reduces severity and duration of influenza if started within 48 hours of symptoms",
+          "side_effects": ["Nausea", "Vomiting", "Headache", "Abdominal pain"],
+          "contraindications": ["Severe renal impairment (dose adjustment needed)", "Known hypersensitivity"],
+          "category": "Antiviral",
+          "requires_prescription": true
+        },
+        {
+          "name": "Ibuprofen",
+          "generic_name": "Ibuprofen",
+          "dosage": "400mg every 6–8 hours with food",
+          "max_daily": "1200mg (OTC); 2400mg (prescription)",
+          "usage": "Reduces fever, body aches, and inflammation",
+          "side_effects": ["Stomach upset", "Nausea", "Increased bleeding risk", "Kidney issues with prolonged use"],
+          "contraindications": ["Peptic ulcer disease", "Severe kidney or liver disease", "Aspirin allergy", "Late-stage pregnancy"],
+          "category": "NSAID/Analgesic",
+          "requires_prescription": false
+        },
+        {
+          "name": "Paracetamol",
+          "generic_name": "Acetaminophen",
+          "dosage": "500mg–1000mg every 4–6 hours as needed",
+          "max_daily": "4000mg",
+          "usage": "Alternative fever and pain relief, gentler on the stomach",
+          "side_effects": ["Nausea", "Liver damage on overdose"],
+          "contraindications": ["Severe liver disease", "Alcohol dependency"],
+          "category": "Analgesic/Antipyretic",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "High-nutrient, easy-to-digest foods that support immune function and replenish lost fluids.",
+        "foods_to_eat": [
+          "Hot chicken or vegetable soups",
+          "Broths with electrolytes",
+          "Fruits rich in Vitamin C such as oranges and kiwi",
+          "Ginger and turmeric teas with anti-inflammatory properties",
+          "Bananas and applesauce that are easy to digest",
+          "Whole grain toast for gentle energy",
+          "Honey for soothing throat and antimicrobial effects"
+        ],
+        "foods_to_avoid": [
+          "Alcohol and caffeinated beverages that cause dehydration",
+          "Processed and sugary foods",
+          "Greasy and heavy meals that tax the digestive system",
+          "Raw shellfish or undercooked foods"
+        ],
+        "hydration": "Drink 10–12 glasses of fluids daily — water, electrolyte solutions, herbal teas, and clear broths to compensate for fever-related fluid loss."
+      },
+      "lifestyle": {
+        "exercise": "Complete bed rest is recommended during acute illness. Gradually resume light activity only after fever has resolved for at least 24 hours.",
+        "sleep": "Prioritize 9–10 hours of sleep. Good sleep accelerates immune response and recovery.",
+        "stress_management": "Keep stress minimal. Avoid work obligations during illness. Gentle breathing exercises can aid comfort.",
+        "general_tips": [
+          "Stay home and avoid contact with others to prevent spreading influenza",
+          "Cover your mouth when coughing or sneezing with a tissue or elbow",
+          "Get an annual flu vaccine to protect against common strains",
+          "Monitor for warning signs such as difficulty breathing or persistent high fever"
+        ]
+      }
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia",
+      "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus. Pneumonia can range from mild to life-threatening and is most serious for infants, older adults, and those with weakened immune systems.",
+      "severity": "severe",
+      "primary_symptoms": ["fever", "cough", "shortness_of_breath", "chest_pain", "chills"],
+      "secondary_symptoms": ["fatigue", "sweating", "nausea"],
+      "medications": [
+        {
+          "name": "Amoxicillin",
+          "generic_name": "Amoxicillin trihydrate",
+          "dosage": "500mg every 8 hours or 875mg every 12 hours for 5–7 days",
+          "max_daily": "3000mg",
+          "usage": "First-line antibiotic for community-acquired bacterial pneumonia",
+          "side_effects": ["Diarrhea", "Nausea", "Rash", "Allergic reactions"],
+          "contraindications": ["Penicillin allergy", "Mononucleosis (risk of rash)", "Severe kidney impairment"],
+          "category": "Antibiotic (Penicillin class)",
+          "requires_prescription": true
+        },
+        {
+          "name": "Azithromycin",
+          "generic_name": "Azithromycin dihydrate",
+          "dosage": "500mg on day 1, then 250mg once daily for 4 days",
+          "max_daily": "500mg",
+          "usage": "Covers atypical organisms; used in combination or for penicillin-allergic patients",
+          "side_effects": ["Nausea", "Abdominal pain", "Diarrhea", "QT interval prolongation"],
+          "contraindications": ["Known QT prolongation", "Liver disease", "Hypersensitivity to macrolides"],
+          "category": "Antibiotic (Macrolide class)",
+          "requires_prescription": true
+        },
+        {
+          "name": "Ibuprofen",
+          "generic_name": "Ibuprofen",
+          "dosage": "400mg every 6–8 hours with food",
+          "max_daily": "1200mg (OTC)",
+          "usage": "Manages fever and chest discomfort",
+          "side_effects": ["GI upset", "Nausea", "Increased bleeding risk"],
+          "contraindications": ["Peptic ulcer", "Severe renal disease", "Aspirin allergy"],
+          "category": "NSAID/Analgesic",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "Nutrient-dense, anti-inflammatory diet to support lung healing and immune response.",
+        "foods_to_eat": [
+          "Protein-rich foods like eggs, lean chicken, and legumes for tissue repair",
+          "Turmeric milk for its anti-inflammatory curcumin content",
+          "Foods rich in Vitamin C (citrus, bell peppers) to boost immunity",
+          "Whole grains like oatmeal for sustained energy",
+          "Probiotic-rich yogurt to restore gut flora during antibiotic use",
+          "Leafy greens (spinach, kale) for antioxidants and micronutrients"
+        ],
+        "foods_to_avoid": [
+          "Alcohol which suppresses the immune system",
+          "Tobacco smoke which further damages lung tissue",
+          "Sugary foods and sodas that promote inflammation",
+          "Cold and icy foods that may irritate respiratory passages"
+        ],
+        "hydration": "Drink 8–12 glasses of water per day to thin mucus secretions and ease expectoration. Warm herbal teas and broths are especially beneficial."
+      },
+      "lifestyle": {
+        "exercise": "Strict bed rest during acute illness. Deep breathing exercises (incentive spirometry) help expand lungs and aid recovery. Resume activity only after medical clearance.",
+        "sleep": "Sleep in a semi-upright position (30–45°) to reduce breathing difficulty. Aim for 10+ hours of sleep.",
+        "stress_management": "Mindfulness and calm breathing reduce anxiety associated with breathlessness. Avoid any physical or emotional stress during recovery.",
+        "general_tips": [
+          "Complete the full antibiotic course even if symptoms improve early",
+          "Seek immediate medical care if breathing worsens or oxygen saturation drops",
+          "Get pneumococcal and flu vaccines to prevent future episodes",
+          "Use steam inhalation to ease congestion and aid mucus clearance"
+        ]
+      }
+    },
+    {
+      "id": "asthma",
+      "name": "Asthma",
+      "description": "A chronic respiratory condition in which the airways narrow, swell, and produce extra mucus, making breathing difficult. Asthma can be triggered by allergens, exercise, air pollution, or respiratory infections.",
+      "severity": "moderate",
+      "primary_symptoms": ["shortness_of_breath", "wheezing", "chest_pain", "cough"],
+      "secondary_symptoms": ["anxiety_feeling", "fatigue"],
+      "medications": [
+        {
+          "name": "Salbutamol Inhaler",
+          "generic_name": "Albuterol sulfate",
+          "dosage": "1–2 puffs (100mcg each) every 4–6 hours as needed; 2 puffs before exercise",
+          "max_daily": "800mcg (8 puffs)",
+          "usage": "Short-acting bronchodilator (rescue inhaler) for acute relief of bronchospasm",
+          "side_effects": ["Tremor", "Tachycardia", "Headache", "Hypokalemia with high doses"],
+          "contraindications": ["Known hypersensitivity to albuterol", "Severe cardiovascular disease (use with caution)"],
+          "category": "Short-acting Beta-2 Agonist (SABA)",
+          "requires_prescription": true
+        },
+        {
+          "name": "Fluticasone",
+          "generic_name": "Fluticasone propionate",
+          "dosage": "100–250mcg inhaled twice daily (maintenance therapy)",
+          "max_daily": "1000mcg",
+          "usage": "Inhaled corticosteroid for long-term prevention and control of asthma symptoms",
+          "side_effects": ["Oral candidiasis", "Hoarseness", "Adrenal suppression at high doses"],
+          "contraindications": ["Active pulmonary tuberculosis", "Known hypersensitivity"],
+          "category": "Inhaled Corticosteroid (ICS)",
+          "requires_prescription": true
+        },
+        {
+          "name": "Montelukast",
+          "generic_name": "Montelukast sodium",
+          "dosage": "10mg once daily in the evening",
+          "max_daily": "10mg",
+          "usage": "Leukotriene receptor antagonist for maintenance therapy and exercise-induced asthma prevention",
+          "side_effects": ["Headache", "Abdominal pain", "Mood changes", "Neuropsychiatric events (rare)"],
+          "contraindications": ["Known hypersensitivity to montelukast", "Phenylketonuria (some formulations)"],
+          "category": "Leukotriene Receptor Antagonist",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Anti-inflammatory diet that avoids known food triggers and supports lung health.",
+        "foods_to_eat": [
+          "Apples and grapes rich in quercetin, a natural bronchodilator",
+          "Fatty fish (salmon, mackerel) rich in omega-3 fatty acids to reduce airway inflammation",
+          "Ginger tea for its anti-inflammatory and bronchodilatory effects",
+          "Turmeric (curcumin) for reducing airway inflammation",
+          "Leafy green vegetables for magnesium and antioxidants",
+          "Vitamin D-rich foods (fortified milk, eggs) — low Vitamin D is linked to worse asthma control"
+        ],
+        "foods_to_avoid": [
+          "Sulfite-containing foods (wine, dried fruits, preserved foods) — common asthma triggers",
+          "Processed and fast foods high in trans fats",
+          "Dairy products if they worsen mucus production for you",
+          "Salicylate-rich foods if aspirin-sensitive"
+        ],
+        "hydration": "Drink 8 glasses of water daily to keep airways moist and thin mucus secretions."
+      },
+      "lifestyle": {
+        "exercise": "Exercise regularly but choose low-trigger activities like swimming, walking, or yoga. Always carry your rescue inhaler. Warm up and cool down gradually.",
+        "sleep": "Ensure 7–9 hours of sleep. Keep bedrooms free of dust mites and pet dander. Use allergy-proof pillow and mattress covers.",
+        "stress_management": "Stress and strong emotions can trigger asthma attacks. Practice diaphragmatic breathing, yoga, and mindfulness meditation.",
+        "general_tips": [
+          "Identify and avoid personal asthma triggers (allergens, smoke, cold air, strong odors)",
+          "Always carry your rescue inhaler and ensure it is not expired",
+          "Monitor peak flow readings regularly to assess asthma control",
+          "Keep windows closed during high-pollen seasons and use HEPA air filters indoors"
+        ]
+      }
+    },
+    {
+      "id": "covid19",
+      "name": "COVID-19",
+      "description": "A respiratory illness caused by the SARS-CoV-2 coronavirus. Symptoms range from mild (cold-like) to severe (requiring hospitalization). Some patients experience long-term symptoms (Long COVID).",
+      "severity": "moderate",
+      "primary_symptoms": ["fever", "cough", "fatigue", "body_aches", "shortness_of_breath"],
+      "secondary_symptoms": ["headache", "sore_throat", "diarrhea", "sweating"],
+      "medications": [
+        {
+          "name": "Paracetamol",
+          "generic_name": "Acetaminophen",
+          "dosage": "500mg–1000mg every 4–6 hours as needed",
+          "max_daily": "4000mg",
+          "usage": "First-line treatment for fever and body aches in mild to moderate COVID-19",
+          "side_effects": ["Nausea", "Liver damage on overdose"],
+          "contraindications": ["Severe liver disease", "Alcohol dependency"],
+          "category": "Analgesic/Antipyretic",
+          "requires_prescription": false
+        },
+        {
+          "name": "Vitamin D3",
+          "generic_name": "Cholecalciferol",
+          "dosage": "2000–4000 IU once daily",
+          "max_daily": "4000 IU (supplementation)",
+          "usage": "Immune modulation and reduction of COVID-19 severity risk in deficient patients",
+          "side_effects": ["Hypercalcemia at very high doses", "Nausea with high doses"],
+          "contraindications": ["Hypercalcemia", "Sarcoidosis", "Kidney disease (monitor levels)"],
+          "category": "Vitamin/Supplement",
+          "requires_prescription": false
+        },
+        {
+          "name": "Dexamethasone",
+          "generic_name": "Dexamethasone sodium phosphate",
+          "dosage": "6mg once daily for 10 days (severe/hospitalized cases only)",
+          "max_daily": "6mg",
+          "usage": "Corticosteroid used in severe COVID-19 to reduce cytokine storm and mortality in patients requiring oxygen",
+          "side_effects": ["Hyperglycemia", "Immunosuppression", "Fluid retention", "Mood changes"],
+          "contraindications": ["Mild COVID-19 (not beneficial)", "Active systemic fungal infection", "Uncontrolled diabetes"],
+          "category": "Corticosteroid",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Immune-boosting, anti-inflammatory diet with emphasis on micronutrient sufficiency and hydration.",
+        "foods_to_eat": [
+          "Citrus fruits and berries high in Vitamin C",
+          "Turmeric and ginger teas for anti-inflammatory benefits",
+          "Lean proteins (eggs, chicken, legumes) to support immune cell production",
+          "Zinc-rich foods: pumpkin seeds, nuts, legumes",
+          "Fermented foods (yogurt, kefir) for gut microbiome support",
+          "Dark leafy greens for micronutrients and antioxidants",
+          "Easily digestible foods (rice, soup, toast) during GI symptoms"
+        ],
+        "foods_to_avoid": [
+          "Alcohol which suppresses the immune system and dehydrates",
+          "Highly processed and sugary foods that increase inflammation",
+          "Greasy and heavy meals that are difficult to digest",
+          "Caffeine in excess which may worsen insomnia during recovery"
+        ],
+        "hydration": "Drink at least 8–10 glasses of water or fluids daily. Oral rehydration salts (ORS) if experiencing diarrhea. Coconut water and clear broths are beneficial."
+      },
+      "lifestyle": {
+        "exercise": "Complete rest during acute illness. Gentle breathing exercises and pulse oximetry monitoring are important. Gradually resume light walking after recovery.",
+        "sleep": "Prioritize 9–10 hours of quality sleep. Prone positioning (lying on stomach) can improve oxygenation in mild hypoxia.",
+        "stress_management": "COVID-19 can cause significant mental health strain. Practice mindfulness, connect virtually with loved ones, and seek psychological support if needed.",
+        "general_tips": [
+          "Isolate from household members to prevent transmission",
+          "Monitor oxygen levels using a pulse oximeter — seek care if SpO2 falls below 94%",
+          "Get vaccinated and boosted to reduce severity of future infections",
+          "Watch for long COVID symptoms and consult a doctor if symptoms persist beyond 4 weeks"
+        ]
+      }
+    },
+    {
+      "id": "type2_diabetes",
+      "name": "Type 2 Diabetes",
+      "description": "A chronic metabolic condition characterized by high blood sugar levels resulting from insulin resistance and relative insulin deficiency. It is strongly linked to obesity, physical inactivity, and genetic predisposition.",
+      "severity": "moderate",
+      "primary_symptoms": ["frequent_urination", "excessive_thirst", "blurred_vision", "fatigue"],
+      "secondary_symptoms": ["weight_loss", "nausea", "numbness_tingling"],
+      "medications": [
+        {
+          "name": "Metformin",
+          "generic_name": "Metformin hydrochloride",
+          "dosage": "500mg twice daily with meals, titrated to 1000mg twice daily",
+          "max_daily": "2550mg",
+          "usage": "First-line medication that reduces hepatic glucose production and improves insulin sensitivity",
+          "side_effects": ["Nausea", "Diarrhea", "Abdominal discomfort", "Lactic acidosis (rare)"],
+          "contraindications": ["Severe renal impairment (eGFR < 30)", "Liver disease", "Alcoholism", "Iodinated contrast dye use (temporary hold)"],
+          "category": "Biguanide Antidiabetic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Glipizide",
+          "generic_name": "Glipizide",
+          "dosage": "5mg once daily before breakfast, adjustable to 40mg/day",
+          "max_daily": "40mg",
+          "usage": "Sulfonylurea that stimulates insulin secretion from pancreatic beta cells",
+          "side_effects": ["Hypoglycemia", "Weight gain", "Nausea", "Dizziness"],
+          "contraindications": ["Type 1 diabetes", "Diabetic ketoacidosis", "Sulfonamide allergy", "Severe hepatic or renal disease"],
+          "category": "Sulfonylurea Antidiabetic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Sitagliptin",
+          "generic_name": "Sitagliptin phosphate",
+          "dosage": "100mg once daily",
+          "max_daily": "100mg",
+          "usage": "DPP-4 inhibitor that enhances incretin effect; well-tolerated with low hypoglycemia risk",
+          "side_effects": ["Nasopharyngitis", "Upper respiratory tract infection", "Headache", "Pancreatitis (rare)"],
+          "contraindications": ["Type 1 diabetes", "Diabetic ketoacidosis", "Severe renal disease (dose adjustment needed)"],
+          "category": "DPP-4 Inhibitor Antidiabetic",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Low glycemic index diet to control blood sugar levels, manage weight, and prevent complications.",
+        "foods_to_eat": [
+          "Non-starchy vegetables (broccoli, spinach, cucumber, cauliflower)",
+          "Whole grains (brown rice, barley, oats) with low glycemic index",
+          "Lean proteins (chicken, fish, tofu, legumes) to maintain satiety",
+          "Berries and apples with fiber that slow glucose absorption",
+          "Nuts and seeds (almonds, walnuts, flaxseeds) for healthy fats",
+          "Greek yogurt (unsweetened) for protein and probiotics",
+          "Cinnamon which may improve insulin sensitivity"
+        ],
+        "foods_to_avoid": [
+          "White bread, white rice, and refined grains with high glycemic index",
+          "Sugary beverages including sodas, fruit juices, and energy drinks",
+          "Sweets, desserts, and candy",
+          "Saturated fats and trans fats from fried and processed foods",
+          "High-sodium processed foods that raise blood pressure"
+        ],
+        "hydration": "Drink 8–10 glasses of water daily. Avoid sugar-sweetened drinks. Herbal teas and infused water are good alternatives."
+      },
+      "lifestyle": {
+        "exercise": "Aim for at least 150 minutes of moderate-intensity aerobic exercise per week (brisk walking, cycling, swimming). Include 2–3 resistance training sessions weekly. Exercise improves insulin sensitivity significantly.",
+        "sleep": "Maintain 7–9 hours of quality sleep. Poor sleep worsens insulin resistance and blood sugar control.",
+        "stress_management": "Chronic stress elevates cortisol, which raises blood sugar. Practice yoga, meditation, and progressive muscle relaxation.",
+        "general_tips": [
+          "Monitor blood glucose levels regularly using a glucometer",
+          "Maintain a healthy body weight — even 5–10% weight loss can significantly improve blood sugar control",
+          "Never skip meals; eat at regular intervals to prevent blood sugar spikes and crashes",
+          "Schedule regular HbA1c tests every 3 months to assess long-term glucose control"
+        ]
+      }
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension",
+      "description": "A chronic condition where blood pressure in the arteries is persistently elevated (≥130/80 mmHg). Often asymptomatic, it is a major risk factor for heart disease, stroke, and kidney failure.",
+      "severity": "moderate",
+      "primary_symptoms": ["headache", "dizziness", "heart_palpitations", "chest_pain"],
+      "secondary_symptoms": ["shortness_of_breath", "blurred_vision", "sweating"],
+      "medications": [
+        {
+          "name": "Amlodipine",
+          "generic_name": "Amlodipine besylate",
+          "dosage": "5mg once daily, titrated to 10mg once daily if needed",
+          "max_daily": "10mg",
+          "usage": "Calcium channel blocker that relaxes blood vessel walls and reduces blood pressure",
+          "side_effects": ["Peripheral edema (ankle swelling)", "Flushing", "Dizziness", "Headache", "Palpitations"],
+          "contraindications": ["Cardiogenic shock", "Severe aortic stenosis", "Hypersensitivity to amlodipine"],
+          "category": "Calcium Channel Blocker",
+          "requires_prescription": true
+        },
+        {
+          "name": "Lisinopril",
+          "generic_name": "Lisinopril",
+          "dosage": "10mg once daily, titrated to 20–40mg once daily",
+          "max_daily": "40mg",
+          "usage": "ACE inhibitor that relaxes blood vessels, reduces blood pressure, and protects kidneys in diabetic patients",
+          "side_effects": ["Dry cough", "Hyperkalemia", "Dizziness", "Angioedema (rare but serious)"],
+          "contraindications": ["History of angioedema with ACE inhibitors", "Pregnancy", "Bilateral renal artery stenosis", "Hyperkalemia"],
+          "category": "ACE Inhibitor",
+          "requires_prescription": true
+        },
+        {
+          "name": "Hydrochlorothiazide",
+          "generic_name": "Hydrochlorothiazide",
+          "dosage": "12.5–25mg once daily in the morning",
+          "max_daily": "50mg",
+          "usage": "Thiazide diuretic that reduces fluid volume and lowers blood pressure",
+          "side_effects": ["Hypokalemia", "Hyponatremia", "Hyperuricemia", "Photosensitivity", "Elevated blood glucose"],
+          "contraindications": ["Anuria", "Sulfa drug allergy", "Severe renal impairment", "Gout"],
+          "category": "Thiazide Diuretic",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "DASH (Dietary Approaches to Stop Hypertension) diet emphasizing low sodium, high potassium, and heart-healthy foods.",
+        "foods_to_eat": [
+          "Potassium-rich foods: bananas, sweet potatoes, spinach, avocado",
+          "Low-fat dairy products rich in calcium",
+          "Whole grains (oats, whole wheat bread, brown rice)",
+          "Lean meats and fish especially fatty fish with omega-3s",
+          "Berries (blueberries, strawberries) for blood pressure-lowering flavonoids",
+          "Garlic and beetroot juice with proven BP-lowering effects",
+          "Nuts and seeds (unsalted) for magnesium and healthy fats"
+        ],
+        "foods_to_avoid": [
+          "High-sodium foods: table salt, processed meats, canned soups, pickles",
+          "Alcohol which raises blood pressure",
+          "Saturated and trans fats from red meat and fried foods",
+          "Caffeine in excessive amounts",
+          "Sugary beverages and sweets"
+        ],
+        "hydration": "Drink 6–8 glasses of water daily. Limit sodium in fluids. Hibiscus tea has been shown to modestly lower blood pressure."
+      },
+      "lifestyle": {
+        "exercise": "Aim for 30 minutes of moderate aerobic exercise (brisk walking, cycling) 5 days per week. Avoid very high-intensity exercise without medical clearance.",
+        "sleep": "Ensure 7–8 hours of sleep. Sleep apnea is a common cause of treatment-resistant hypertension; get screened if suspected.",
+        "stress_management": "Chronic stress is a significant driver of high blood pressure. Regular meditation, deep breathing exercises, and yoga can reduce systolic BP by 5–10 mmHg.",
+        "general_tips": [
+          "Monitor blood pressure at home using a validated device and log readings",
+          "Reduce sodium intake to less than 2300mg per day (1500mg is ideal)",
+          "Maintain a healthy weight — every 1kg of weight loss can reduce systolic BP by ~1 mmHg",
+          "Never stop blood pressure medications abruptly without medical advice"
+        ]
+      }
+    },
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "description": "A neurological condition characterized by intense, debilitating headaches often accompanied by nausea, vomiting, and sensitivity to light and sound. Migraines can last from hours to days.",
+      "severity": "moderate",
+      "primary_symptoms": ["headache", "nausea", "dizziness", "vomiting"],
+      "secondary_symptoms": ["blurred_vision", "neck_pain", "eye_redness"],
+      "medications": [
+        {
+          "name": "Sumatriptan",
+          "generic_name": "Sumatriptan succinate",
+          "dosage": "50–100mg at onset; may repeat 50–100mg after 2 hours if needed",
+          "max_daily": "200mg",
+          "usage": "Triptan that selectively constricts dilated cranial blood vessels to abort acute migraine attacks",
+          "side_effects": ["Tingling", "Flushing", "Chest tightness", "Dizziness", "Nausea"],
+          "contraindications": ["Ischemic heart disease", "Uncontrolled hypertension", "Stroke/TIA history", "MAO inhibitor use", "Hemiplegic or basilar migraine"],
+          "category": "Triptan/Serotonin Receptor Agonist",
+          "requires_prescription": true
+        },
+        {
+          "name": "Topiramate",
+          "generic_name": "Topiramate",
+          "dosage": "25mg once daily at night, titrated to 100mg twice daily over weeks",
+          "max_daily": "200mg",
+          "usage": "Preventive therapy to reduce frequency and severity of migraine attacks",
+          "side_effects": ["Cognitive slowing", "Word-finding difficulty", "Paresthesia", "Weight loss", "Kidney stones"],
+          "contraindications": ["Metabolic acidosis", "Kidney stones", "Pregnancy (teratogenic)", "Glaucoma"],
+          "category": "Anticonvulsant/Migraine Prophylactic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Ibuprofen",
+          "generic_name": "Ibuprofen",
+          "dosage": "400–600mg at migraine onset",
+          "max_daily": "1200mg (OTC)",
+          "usage": "OTC analgesic for mild-to-moderate migraines; most effective when taken early",
+          "side_effects": ["GI upset", "Nausea", "Stomach ulcers with long-term use"],
+          "contraindications": ["Peptic ulcer", "Aspirin allergy", "Severe kidney disease"],
+          "category": "NSAID",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "Identify and eliminate dietary triggers while maintaining regular meal times to prevent migraine episodes.",
+        "foods_to_eat": [
+          "Magnesium-rich foods: spinach, dark chocolate, avocado, nuts (magnesium deficiency linked to migraines)",
+          "Omega-3 rich fatty fish like salmon and sardines for their anti-inflammatory effects",
+          "Ginger tea for its anti-nausea and pain-modulating properties",
+          "Riboflavin (B2)-rich foods: dairy, lean meats, eggs for migraine prevention",
+          "Water-rich fruits and vegetables to maintain hydration",
+          "Complex carbohydrates to prevent blood sugar drops that trigger migraines"
+        ],
+        "foods_to_avoid": [
+          "Tyramine-containing foods: aged cheeses, cured meats, fermented foods",
+          "Alcohol especially red wine and beer",
+          "Caffeine (or excessive caffeine; withdrawal can also trigger attacks)",
+          "Processed and artificial sweeteners including aspartame",
+          "MSG-containing foods (certain processed snacks, Chinese takeaways)"
+        ],
+        "hydration": "Dehydration is a major migraine trigger. Drink at least 8–10 glasses of water daily. Carry a water bottle and drink consistently throughout the day."
+      },
+      "lifestyle": {
+        "exercise": "Regular moderate exercise (walking, swimming, yoga) 3–4 times per week reduces migraine frequency. Avoid intense exercise during a migraine attack.",
+        "sleep": "Maintain a strictly regular sleep schedule — both insufficient and excessive sleep can trigger migraines. Aim for 7–9 hours.",
+        "stress_management": "Stress is the most common migraine trigger. Practice biofeedback, progressive muscle relaxation, cognitive behavioral therapy, and meditation.",
+        "general_tips": [
+          "Keep a migraine diary to identify personal triggers (food, weather, hormonal, stress-related)",
+          "Lie in a dark, quiet room at the onset of an attack",
+          "Apply cold or warm compresses to the head or neck during attacks",
+          "Establish regular daily routines to maintain consistency and reduce triggers"
+        ]
+      }
+    },
+    {
+      "id": "gastritis",
+      "name": "Gastritis",
+      "description": "Inflammation of the stomach lining that can be acute or chronic. It is caused by H. pylori infection, NSAIDs, excessive alcohol, or stress, leading to pain, nausea, and digestive discomfort.",
+      "severity": "mild",
+      "primary_symptoms": ["abdominal_pain", "nausea", "burning_sensation", "appetite_loss"],
+      "secondary_symptoms": ["vomiting", "nausea", "bloating"],
+      "medications": [
+        {
+          "name": "Omeprazole",
+          "generic_name": "Omeprazole magnesium",
+          "dosage": "20mg once daily before breakfast for 4–8 weeks",
+          "max_daily": "40mg",
+          "usage": "Proton pump inhibitor that dramatically reduces stomach acid production, allowing healing",
+          "side_effects": ["Headache", "Diarrhea", "Nausea", "Hypomagnesemia with long-term use", "C. difficile risk"],
+          "contraindications": ["Known hypersensitivity to PPIs", "Concurrent rilpivirine or atazanavir use"],
+          "category": "Proton Pump Inhibitor (PPI)",
+          "requires_prescription": false
+        },
+        {
+          "name": "Ranitidine",
+          "generic_name": "Famotidine (safer alternative post-ranitidine recall)",
+          "dosage": "20mg twice daily or 40mg once daily at bedtime",
+          "max_daily": "40mg",
+          "usage": "H2 receptor antagonist that reduces stomach acid secretion",
+          "side_effects": ["Headache", "Dizziness", "Constipation", "Diarrhea"],
+          "contraindications": ["Severe renal impairment (dose adjustment)", "Known hypersensitivity"],
+          "category": "H2 Receptor Antagonist",
+          "requires_prescription": false
+        },
+        {
+          "name": "Sucralfate",
+          "generic_name": "Sucralfate",
+          "dosage": "1g four times daily on an empty stomach",
+          "max_daily": "4g",
+          "usage": "Forms a protective coating over the inflamed stomach mucosa, promoting healing",
+          "side_effects": ["Constipation", "Dry mouth", "Indigestion", "May reduce absorption of other medications"],
+          "contraindications": ["Severe renal failure (aluminum toxicity risk)", "Should be separated from other medications by 2 hours"],
+          "category": "Mucosal Protectant",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Gentle, easily digestible, low-acid diet that soothes the stomach lining and reduces acid irritation.",
+        "foods_to_eat": [
+          "Plain cooked rice and boiled potatoes — easy on the stomach",
+          "Banana and melon — gentle fruits that coat the stomach",
+          "Oatmeal with no added sugar — soothing and easy to digest",
+          "Lean chicken or fish steamed without spices",
+          "Probiotic-rich yogurt (plain) to restore gut bacteria and combat H. pylori",
+          "Honey — shown to have antimicrobial properties against H. pylori",
+          "Cabbage juice — traditionally used to heal gastric ulcers"
+        ],
+        "foods_to_avoid": [
+          "Spicy foods, hot peppers, and chili that irritate the stomach lining",
+          "Alcohol which damages the stomach mucosa",
+          "Coffee, tea, and caffeinated drinks that stimulate excess acid production",
+          "Acidic foods: citrus fruits, tomatoes, vinegar-based dressings",
+          "NSAIDs (aspirin, ibuprofen) that damage the stomach lining"
+        ],
+        "hydration": "Drink 6–8 glasses of water throughout the day — not with meals (to avoid diluting digestive enzymes). Chamomile and licorice root teas are soothing."
+      },
+      "lifestyle": {
+        "exercise": "Light exercise such as walking is beneficial. Avoid exercise immediately after meals. Intense exercise may worsen symptoms during flares.",
+        "sleep": "Avoid eating 2–3 hours before bedtime. Elevate the head of your bed 6–8 inches to reduce acid reflux during sleep.",
+        "stress_management": "Stress increases stomach acid production. Practice daily stress reduction: yoga, progressive muscle relaxation, and avoiding anxiety-provoking situations.",
+        "general_tips": [
+          "Eat small, frequent meals (5–6 times daily) rather than 3 large meals",
+          "Chew food thoroughly and eat slowly to ease digestion",
+          "Avoid lying down immediately after eating",
+          "Test for and treat H. pylori infection if confirmed (requires antibiotics)"
+        ]
+      }
+    },
+    {
+      "id": "uti",
+      "name": "Urinary Tract Infection (UTI)",
+      "description": "An infection affecting any part of the urinary system (kidneys, bladder, or urethra). Most commonly caused by E. coli. Women are significantly more susceptible than men.",
+      "severity": "mild",
+      "primary_symptoms": ["frequent_urination", "burning_sensation", "abdominal_pain", "lower_back_pain"],
+      "secondary_symptoms": ["fever", "nausea"],
+      "medications": [
+        {
+          "name": "Ciprofloxacin",
+          "generic_name": "Ciprofloxacin hydrochloride",
+          "dosage": "250–500mg twice daily for 3–7 days (uncomplicated UTI)",
+          "max_daily": "1500mg",
+          "usage": "Broad-spectrum fluoroquinolone antibiotic effective against common UTI pathogens",
+          "side_effects": ["Nausea", "Diarrhea", "Dizziness", "Tendon rupture (rare)", "QT prolongation"],
+          "contraindications": ["Tendon disorders", "Myasthenia gravis", "Pregnancy", "Children (growth cartilage risk)", "Concurrent antacid use"],
+          "category": "Fluoroquinolone Antibiotic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Nitrofurantoin",
+          "generic_name": "Nitrofurantoin macrocrystals",
+          "dosage": "100mg (modified-release) twice daily for 5 days OR 50mg four times daily for 7 days",
+          "max_daily": "400mg",
+          "usage": "Preferred antibiotic for uncomplicated lower UTI due to high urinary concentration and low resistance rates",
+          "side_effects": ["Nausea", "Headache", "Pulmonary reactions (long-term)", "Peripheral neuropathy (long-term)"],
+          "contraindications": ["eGFR < 30 mL/min (ineffective)", "Pregnancy at term (haemolysis risk)", "G6PD deficiency"],
+          "category": "Nitrofuran Antibiotic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Trimethoprim",
+          "generic_name": "Trimethoprim",
+          "dosage": "200mg twice daily or 400mg once daily for 7 days",
+          "max_daily": "400mg",
+          "usage": "Alternative antibiotic for uncomplicated UTI; check local resistance patterns",
+          "side_effects": ["Nausea", "Rash", "Hyperkalemia", "Bone marrow suppression (long-term)"],
+          "contraindications": ["Folate deficiency", "Pregnancy (first trimester)", "Severe renal impairment", "Megaloblastic anaemia"],
+          "category": "Folate Synthesis Inhibitor Antibiotic",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "High-fluid diet with foods that support urinary tract health and inhibit bacterial adhesion.",
+        "foods_to_eat": [
+          "Cranberries and cranberry juice (unsweetened) — proanthocyanidins prevent E. coli from adhering to bladder walls",
+          "Blueberries with similar antiadhesion properties as cranberries",
+          "Probiotic-rich yogurt to restore healthy vaginal flora",
+          "Garlic with natural antimicrobial and immunostimulatory properties",
+          "Vitamin C-rich foods (citrus, bell peppers) that acidify urine and inhibit bacterial growth",
+          "High-fiber vegetables and whole grains to prevent constipation that can worsen UTI"
+        ],
+        "foods_to_avoid": [
+          "Alcohol which irritates the bladder",
+          "Caffeine (coffee, tea, sodas) which increases urgency and irritation",
+          "Spicy foods that irritate the bladder mucosa",
+          "Sugary foods and drinks that promote bacterial growth"
+        ],
+        "hydration": "Drink at least 8–10 glasses of water daily to flush bacteria from the urinary tract. Adequate hydration is the single most important dietary intervention for UTI prevention."
+      },
+      "lifestyle": {
+        "exercise": "Light to moderate exercise is fine. Ensure you urinate before and after exercise. Avoid tight, non-breathable workout clothes.",
+        "sleep": "Rest adequately. Incomplete bladder emptying at night can predispose to UTIs; urinate before bed.",
+        "stress_management": "Chronic stress weakens immune defenses, making UTIs more likely. Practice stress-reduction techniques.",
+        "general_tips": [
+          "Urinate shortly after sexual intercourse to flush out bacteria",
+          "Wipe from front to back after using the toilet to prevent E. coli spread",
+          "Wear breathable cotton underwear and avoid tight-fitting clothing",
+          "Complete the full antibiotic course even if symptoms resolve early to prevent recurrence and resistance"
+        ]
+      }
+    },
+    {
+      "id": "anxiety_disorder",
+      "name": "Anxiety Disorder",
+      "description": "A group of mental health conditions characterized by excessive worry, fear, and apprehension that interfere with daily functioning. Includes generalized anxiety disorder (GAD), panic disorder, and social anxiety disorder.",
+      "severity": "moderate",
+      "primary_symptoms": ["anxiety_feeling", "heart_palpitations", "insomnia", "difficulty_concentrating"],
+      "secondary_symptoms": ["sweating", "muscle_weakness", "dizziness"],
+      "medications": [
+        {
+          "name": "Escitalopram",
+          "generic_name": "Escitalopram oxalate",
+          "dosage": "10mg once daily in the morning; may increase to 20mg after 1 week",
+          "max_daily": "20mg",
+          "usage": "First-line SSRI for generalized anxiety disorder; takes 2–4 weeks for full therapeutic effect",
+          "side_effects": ["Nausea", "Insomnia", "Sexual dysfunction", "Increased anxiety initially", "Weight changes"],
+          "contraindications": ["MAO inhibitor use (within 14 days)", "Pimozide co-administration", "QT prolongation"],
+          "category": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+          "requires_prescription": true
+        },
+        {
+          "name": "Alprazolam",
+          "generic_name": "Alprazolam",
+          "dosage": "0.25–0.5mg three times daily (short-term use only, up to 4 weeks)",
+          "max_daily": "4mg",
+          "usage": "Fast-acting benzodiazepine for acute anxiety relief; intended for short-term only due to dependence risk",
+          "side_effects": ["Drowsiness", "Dependence", "Withdrawal symptoms", "Memory impairment", "Impaired coordination"],
+          "contraindications": ["Myasthenia gravis", "Sleep apnea", "Alcohol/substance use disorder", "Pregnancy", "Concurrent opioid use"],
+          "category": "Benzodiazepine Anxiolytic",
+          "requires_prescription": true
+        },
+        {
+          "name": "Buspirone",
+          "generic_name": "Buspirone hydrochloride",
+          "dosage": "7.5mg twice daily, titrated to 15–30mg per day",
+          "max_daily": "60mg",
+          "usage": "Non-benzodiazepine anxiolytic; no sedation or dependence; takes 2–4 weeks for effect",
+          "side_effects": ["Dizziness", "Nausea", "Headache", "Nervousness", "Insomnia"],
+          "contraindications": ["MAO inhibitor use", "Severe hepatic or renal impairment"],
+          "category": "Azapirone Anxiolytic",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Nutrient-dense diet focused on serotonin precursors, magnesium, and omega-3s to support brain health and reduce anxiety.",
+        "foods_to_eat": [
+          "Complex carbohydrates (oats, quinoa, sweet potatoes) that promote serotonin production",
+          "Tryptophan-rich foods (turkey, eggs, cheese, nuts) that are precursors to serotonin",
+          "Magnesium-rich foods (dark chocolate, almonds, spinach, avocado) that calm the nervous system",
+          "Omega-3 fatty acids (salmon, walnuts, flaxseeds) that reduce neuroinflammation",
+          "Probiotic foods (yogurt, kefir, kimchi) supporting the gut-brain axis",
+          "Chamomile and green tea for mild calming effects"
+        ],
+        "foods_to_avoid": [
+          "Caffeine which increases cortisol and worsens anxiety symptoms",
+          "Alcohol — a depressant that worsens anxiety long-term despite short-term relief",
+          "High-sugar foods causing blood sugar spikes and crashes that trigger anxiety",
+          "Processed and fast foods that disrupt gut-brain axis",
+          "Energy drinks high in caffeine and stimulants"
+        ],
+        "hydration": "Stay well-hydrated with 8 glasses of water daily. Even mild dehydration can worsen anxiety and mood. Herbal teas (chamomile, lavender, passionflower) are calming alternatives."
+      },
+      "lifestyle": {
+        "exercise": "Regular aerobic exercise (30 minutes, 5 days/week) is one of the most effective natural treatments for anxiety. It reduces cortisol and increases endorphins and BDNF.",
+        "sleep": "Sleep hygiene is critical — maintain regular sleep and wake times, keep bedroom cool and dark, avoid screens before bed. Anxiety and insomnia are bidirectional.",
+        "stress_management": "Cognitive behavioral therapy (CBT) is the gold standard psychological treatment. Practice mindfulness meditation, progressive muscle relaxation, and diaphragmatic breathing daily.",
+        "general_tips": [
+          "Practice the 4-7-8 breathing technique (inhale 4 sec, hold 7 sec, exhale 8 sec) during acute anxiety",
+          "Limit social media and news consumption which amplifies anxiety",
+          "Maintain regular social connections with supportive people",
+          "Journaling daily can help process anxious thoughts and identify triggers"
+        ]
+      }
+    },
+    {
+      "id": "depression",
+      "name": "Depression",
+      "description": "A major mood disorder causing persistent feelings of sadness, hopelessness, and loss of interest or pleasure in activities. It affects thinking, feeling, behavior, and physical health. It is one of the leading causes of disability worldwide.",
+      "severity": "moderate",
+      "primary_symptoms": ["mood_swings", "fatigue", "insomnia", "appetite_loss", "difficulty_concentrating"],
+      "secondary_symptoms": ["weight_gain", "muscle_weakness", "anxiety_feeling"],
+      "medications": [
+        {
+          "name": "Sertraline",
+          "generic_name": "Sertraline hydrochloride",
+          "dosage": "50mg once daily; may be titrated to 200mg/day",
+          "max_daily": "200mg",
+          "usage": "First-line SSRI antidepressant with broad efficacy and favorable side effect profile",
+          "side_effects": ["Nausea", "Diarrhea", "Insomnia", "Sexual dysfunction", "Weight changes", "Increased sweating"],
+          "contraindications": ["MAO inhibitor use (within 14 days)", "Pimozide co-administration", "Disulfiram co-administration (liquid formulation contains alcohol)"],
+          "category": "SSRI Antidepressant",
+          "requires_prescription": true
+        },
+        {
+          "name": "Fluoxetine",
+          "generic_name": "Fluoxetine hydrochloride",
+          "dosage": "20mg once daily in the morning; may increase to 60mg/day",
+          "max_daily": "80mg (depression); 60mg typical",
+          "usage": "SSRI antidepressant with longest half-life, reducing withdrawal risk; also approved for OCD, bulimia, panic disorder",
+          "side_effects": ["Insomnia", "Anxiety initially", "Nausea", "Sexual dysfunction", "Weight changes"],
+          "contraindications": ["MAO inhibitor use (within 14 days)", "Thioridazine or pimozide co-administration"],
+          "category": "SSRI Antidepressant",
+          "requires_prescription": true
+        },
+        {
+          "name": "Mirtazapine",
+          "generic_name": "Mirtazapine",
+          "dosage": "15mg once daily at bedtime; titrated to 45mg/day",
+          "max_daily": "45mg",
+          "usage": "NaSSA antidepressant; especially useful in depression with insomnia and poor appetite due to sedating and appetite-stimulating effects",
+          "side_effects": ["Sedation", "Weight gain", "Increased appetite", "Dry mouth", "Dizziness"],
+          "contraindications": ["MAO inhibitor use (within 14 days)", "Known hypersensitivity"],
+          "category": "NaSSA Antidepressant",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Mediterranean-style diet that promotes neurotransmitter balance, reduces inflammation, and supports overall brain health.",
+        "foods_to_eat": [
+          "Fatty fish (salmon, sardines, mackerel) rich in omega-3 DHA/EPA that support brain health",
+          "Dark leafy greens (spinach, kale) for folate, which is critical for serotonin synthesis",
+          "Berries and colorful fruits high in antioxidants that reduce neuroinflammation",
+          "Nuts and seeds (walnuts, flaxseeds) for omega-3s and magnesium",
+          "Fermented foods (kefir, yogurt, sauerkraut) for gut-brain axis support",
+          "Dark chocolate (70%+ cocoa) for flavanols that improve mood",
+          "Eggs for vitamin D, B12, and choline essential for neurotransmitter production"
+        ],
+        "foods_to_avoid": [
+          "Alcohol which is a depressant and worsens depression long-term",
+          "Highly processed and sugary foods that cause blood sugar crashes and inflammation",
+          "Refined carbohydrates (white bread, pastries) with inflammatory effects",
+          "Artificial additives and trans fats that disrupt gut microbiome"
+        ],
+        "hydration": "Drink 8–10 glasses of water daily. Dehydration negatively impacts mood and energy. Avoid excessive caffeine which disturbs sleep, worsening depression."
+      },
+      "lifestyle": {
+        "exercise": "Exercise is a powerful antidepressant — 30–60 minutes of moderate exercise 3–5 times per week increases serotonin, dopamine, and BDNF. Walking in nature is especially beneficial.",
+        "sleep": "Depression profoundly disrupts sleep. Practice good sleep hygiene. Consistent sleep-wake schedules, limiting screen time before bed, and cognitive behavioral therapy for insomnia (CBT-I) are effective.",
+        "stress_management": "Cognitive behavioral therapy (CBT) is highly effective for depression. Mindfulness-based cognitive therapy (MBCT) prevents relapse. Social engagement and meaningful activities are protective.",
+        "general_tips": [
+          "Seek professional help from a psychiatrist or psychologist — depression is a medical condition requiring treatment",
+          "Maintain social connections and avoid isolation even when motivation is low",
+          "Set small, achievable daily goals to build momentum and a sense of accomplishment",
+          "Engage in activities that previously brought pleasure — behavioral activation is a core therapeutic strategy"
+        ]
+      }
+    },
+    {
+      "id": "hypothyroidism",
+      "name": "Hypothyroidism",
+      "description": "A condition in which the thyroid gland produces insufficient thyroid hormone, slowing the body's metabolism. Autoimmune Hashimoto's thyroiditis is the most common cause in developed countries.",
+      "severity": "moderate",
+      "primary_symptoms": ["fatigue", "weight_gain", "hair_loss", "joint_pain", "mood_swings"],
+      "secondary_symptoms": ["difficulty_concentrating", "muscle_weakness", "insomnia"],
+      "medications": [
+        {
+          "name": "Levothyroxine",
+          "generic_name": "Levothyroxine sodium",
+          "dosage": "25–50mcg once daily in the morning on an empty stomach, titrated based on TSH levels (typically 50–200mcg/day)",
+          "max_daily": "200mcg (varies per individual needs)",
+          "usage": "Synthetic T4 thyroid hormone replacement — the primary and most effective treatment for hypothyroidism",
+          "side_effects": ["Palpitations (if overdosed)", "Weight loss (if overdosed)", "Insomnia", "Heat intolerance", "Tremors"],
+          "contraindications": ["Untreated adrenal insufficiency (must treat first)", "Recent myocardial infarction (use cautiously)", "Thyrotoxicosis"],
+          "category": "Thyroid Hormone Replacement",
+          "requires_prescription": true
+        },
+        {
+          "name": "Selenium Supplement",
+          "generic_name": "Selenium (as selenomethionine)",
+          "dosage": "200mcg once daily",
+          "max_daily": "400mcg",
+          "usage": "Selenium is essential for thyroid hormone metabolism; supplementation may reduce thyroid antibodies in Hashimoto's thyroiditis",
+          "side_effects": ["Nausea at high doses", "Hair loss at very high doses", "Selenosis (toxicity) at doses > 400mcg"],
+          "contraindications": ["Selenium toxicity", "Should not exceed recommended doses"],
+          "category": "Mineral Supplement",
+          "requires_prescription": false
+        },
+        {
+          "name": "Vitamin D Supplement",
+          "generic_name": "Cholecalciferol (Vitamin D3)",
+          "dosage": "1000–2000 IU daily (higher doses if severely deficient — follow lab-guided dosing)",
+          "max_daily": "4000 IU (safe upper limit)",
+          "usage": "Vitamin D deficiency is extremely common in hypothyroidism and autoimmune thyroid disease; supplementation supports immune regulation and may reduce antibody levels",
+          "side_effects": ["Hypercalcemia at very high doses", "Nausea", "Kidney stones"],
+          "contraindications": ["Hypercalcemia", "Granulomatous diseases (sarcoidosis)", "Severe kidney disease without monitoring"],
+          "category": "Vitamin Supplement",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "Thyroid-supportive diet rich in iodine, selenium, and zinc, while avoiding goitrogens in excess.",
+        "foods_to_eat": [
+          "Iodine-rich foods (seaweed, iodized salt, seafood, dairy) essential for thyroid hormone synthesis",
+          "Selenium-rich foods (Brazil nuts — 1–2 per day, tuna, eggs, sunflower seeds)",
+          "Zinc-rich foods (oysters, beef, pumpkin seeds, chickpeas) supporting thyroid function",
+          "Lean proteins for muscle maintenance and metabolism",
+          "Fruits and vegetables for antioxidants that protect thyroid tissue",
+          "Whole grains for fiber (hypothyroidism causes constipation)"
+        ],
+        "foods_to_avoid": [
+          "Excess raw goitrogenic vegetables (broccoli, cabbage, cauliflower, kale) — cooking reduces goitrogens significantly",
+          "Soy products in large amounts which can interfere with levothyroxine absorption",
+          "Gluten (for Hashimoto's patients — emerging evidence supports gluten-free diet)",
+          "High-fiber foods within 4 hours of taking levothyroxine as they reduce absorption"
+        ],
+        "hydration": "Drink 8 glasses of water daily. Hypothyroidism reduces kidney filtration — adequate hydration supports metabolic processes."
+      },
+      "lifestyle": {
+        "exercise": "Regular exercise combats hypothyroid fatigue, supports weight management, and improves mood. Start with low-intensity activities (walking, yoga) and gradually increase. Strength training supports metabolism.",
+        "sleep": "Hypothyroidism often causes fatigue and excessive sleep. Maintain consistent sleep schedules. 7–9 hours is ideal; avoid over-sleeping which worsens fatigue.",
+        "stress_management": "Stress worsens autoimmune thyroid disease. Adequate cortisol management through mindfulness, yoga, and relaxation is important. Cortisol competes with thyroid hormones.",
+        "general_tips": [
+          "Take levothyroxine consistently — same time each day, 30–60 minutes before breakfast or 3–4 hours after evening meal",
+          "Do not take levothyroxine with calcium supplements, iron, antacids, or coffee as they impair absorption",
+          "Monitor thyroid function (TSH, T3, T4) every 6–12 months or as advised by your doctor",
+          "Inform your doctor of all other medications as many interact with levothyroxine"
+        ]
+      }
+    },
+    {
+      "id": "anemia",
+      "name": "Anemia",
+      "description": "A condition characterized by insufficient healthy red blood cells or hemoglobin to carry adequate oxygen to body tissues. Iron-deficiency anemia is the most common type globally, followed by B12 and folate deficiency anemias.",
+      "severity": "mild",
+      "primary_symptoms": ["fatigue", "dizziness", "shortness_of_breath", "heart_palpitations"],
+      "secondary_symptoms": ["muscle_weakness", "numbness_tingling", "headache"],
+      "medications": [
+        {
+          "name": "Ferrous Sulfate",
+          "generic_name": "Iron as ferrous sulfate",
+          "dosage": "325mg (65mg elemental iron) once or twice daily on an empty stomach (with vitamin C enhances absorption)",
+          "max_daily": "325mg twice daily",
+          "usage": "Iron supplementation for iron-deficiency anemia — the most common first-line treatment",
+          "side_effects": ["Constipation", "Nausea", "Dark stools", "Abdominal cramping", "Teeth staining (liquid form)"],
+          "contraindications": ["Haemochromatosis", "Hemolytic anemia", "Gastrointestinal disease (use with caution)", "Thalassaemia"],
+          "category": "Iron Supplement",
+          "requires_prescription": false
+        },
+        {
+          "name": "Folic Acid",
+          "generic_name": "Folic acid (Vitamin B9)",
+          "dosage": "5mg once daily for 4 months (treatment); 400mcg daily (prevention)",
+          "max_daily": "5mg (treatment dose)",
+          "usage": "Corrects folate-deficiency anemia and is essential for RBC production and DNA synthesis",
+          "side_effects": ["Generally very well tolerated", "May mask B12 deficiency if used alone in pernicious anemia"],
+          "contraindications": ["Vitamin B12 deficiency must be excluded first (folic acid can mask B12 deficiency neurological symptoms)"],
+          "category": "Vitamin B9 Supplement",
+          "requires_prescription": false
+        },
+        {
+          "name": "Vitamin B12",
+          "generic_name": "Cyanocobalamin or Hydroxocobalamin",
+          "dosage": "1000mcg intramuscular injection every other day for 2 weeks, then monthly (pernicious anemia); 1000mcg oral daily (dietary deficiency)",
+          "max_daily": "1000mcg (oral supplementation)",
+          "usage": "Essential for red blood cell formation, neurological function, and DNA synthesis; corrects B12-deficiency anemia",
+          "side_effects": ["Generally very safe", "Injection site pain", "Diarrhea (oral)", "Rare: acne-like skin reactions"],
+          "contraindications": ["Leber's disease (optic neuropathy)", "Cobalt hypersensitivity (injectable forms)"],
+          "category": "Vitamin B12 Supplement",
+          "requires_prescription": false
+        }
+      ],
+      "diet": {
+        "summary": "Iron and vitamin-rich diet that optimizes red blood cell production and maximizes dietary iron absorption.",
+        "foods_to_eat": [
+          "Heme iron sources: red meat, organ meats (liver), poultry, and fish — highest bioavailability",
+          "Non-heme iron sources: lentils, beans, chickpeas, spinach, fortified cereals",
+          "Vitamin C-rich foods (citrus, strawberries, kiwi) taken alongside iron-rich meals to enhance absorption",
+          "Vitamin B12 sources: meat, fish, dairy, eggs (and fortified foods for vegans)",
+          "Folate sources: leafy greens, legumes, fortified cereals, asparagus",
+          "Blackstrap molasses — rich in iron and other minerals"
+        ],
+        "foods_to_avoid": [
+          "Coffee and tea with meals — tannins and polyphenols significantly reduce iron absorption",
+          "Calcium-rich foods (dairy) at the same time as iron-rich foods — calcium inhibits iron absorption",
+          "Phytate-rich foods (raw bran, unsoaked legumes) without pairing with vitamin C",
+          "Alcohol which damages the gut lining and impairs nutrient absorption"
+        ],
+        "hydration": "Drink 8 glasses of water daily. Iron supplements can cause constipation — adequate hydration and fiber intake is important."
+      },
+      "lifestyle": {
+        "exercise": "Light to moderate exercise is encouraged as tolerated. Severe anemia may limit exercise capacity — start slowly and progress as hemoglobin improves. Avoid overexertion.",
+        "sleep": "Ensure 8–9 hours of sleep. Anemia causes significant fatigue — adequate rest is essential for recovery.",
+        "stress_management": "Stress can worsen fatigue. Gentle yoga and meditation conserve energy while reducing stress.",
+        "general_tips": [
+          "Take iron supplements consistently — improvement in symptoms may take 2–4 weeks while full correction of stores takes 3–6 months",
+          "Identify and treat the underlying cause of anemia (dietary deficiency, blood loss, malabsorption, chronic disease)",
+          "Check for gastrointestinal blood loss (peptic ulcer, colon polyps) in adults with iron deficiency anemia",
+          "Cook in cast iron cookware — can modestly increase dietary iron content of food"
+        ]
+      }
+    },
+    {
+      "id": "arthritis",
+      "name": "Arthritis",
+      "description": "A group of conditions causing joint inflammation, pain, and stiffness. Osteoarthritis (degenerative) and rheumatoid arthritis (autoimmune) are the most common forms. Arthritis is a leading cause of disability.",
+      "severity": "moderate",
+      "primary_symptoms": ["joint_pain", "joint_stiffness", "swelling", "lower_back_pain"],
+      "secondary_symptoms": ["fatigue", "muscle_weakness", "skin_rash"],
+      "medications": [
+        {
+          "name": "Ibuprofen",
+          "generic_name": "Ibuprofen",
+          "dosage": "400–800mg three times daily with food",
+          "max_daily": "2400mg (prescription strength)",
+          "usage": "NSAID providing effective pain relief and reduction of joint inflammation",
+          "side_effects": ["GI upset", "Stomach ulcers", "Kidney impairment", "Cardiovascular risks (long-term high dose)"],
+          "contraindications": ["Peptic ulcer", "Severe kidney disease", "Aspirin allergy", "Heart failure", "Pregnancy (third trimester)"],
+          "category": "NSAID Analgesic/Anti-inflammatory",
+          "requires_prescription": false
+        },
+        {
+          "name": "Naproxen",
+          "generic_name": "Naproxen sodium",
+          "dosage": "250–500mg twice daily with food",
+          "max_daily": "1000mg (OTC); 1500mg (prescription)",
+          "usage": "Longer-acting NSAID providing sustained pain relief and inflammation control for arthritis",
+          "side_effects": ["GI upset", "Fluid retention", "Headache", "Dizziness"],
+          "contraindications": ["Peptic ulcer", "Aspirin-exacerbated respiratory disease", "Severe renal or hepatic impairment"],
+          "category": "NSAID Anti-inflammatory",
+          "requires_prescription": false
+        },
+        {
+          "name": "Methotrexate",
+          "generic_name": "Methotrexate",
+          "dosage": "7.5–25mg once weekly (oral or injectable)",
+          "max_daily": "25mg per week",
+          "usage": "Disease-modifying antirheumatic drug (DMARD) that slows the progression of rheumatoid arthritis and reduces joint damage",
+          "side_effects": ["Liver toxicity", "Nausea", "Mouth sores", "Bone marrow suppression", "Lung toxicity (rare)", "Teratogenicity"],
+          "contraindications": ["Pregnancy and breastfeeding", "Severe liver or kidney disease", "Alcoholism", "Bone marrow dysfunction", "Immunodeficiency"],
+          "category": "DMARD / Disease-Modifying Agent",
+          "requires_prescription": true
+        }
+      ],
+      "diet": {
+        "summary": "Anti-inflammatory Mediterranean-style diet to reduce joint inflammation, support cartilage health, and maintain healthy body weight.",
+        "foods_to_eat": [
+          "Fatty fish (salmon, mackerel, sardines) rich in omega-3s that reduce joint inflammation",
+          "Colorful fruits and vegetables high in antioxidants (especially berries, cherries, broccoli, spinach)",
+          "Olive oil with anti-inflammatory oleocanthal similar to ibuprofen",
+          "Garlic, ginger, and turmeric with proven anti-inflammatory properties",
+          "Whole grains and legumes for fiber and B vitamins",
+          "Low-fat dairy or fortified alternatives for bone-supporting calcium and Vitamin D"
+        ],
+        "foods_to_avoid": [
+          "Processed and red meats high in saturated fats that promote inflammation",
+          "Sugary beverages and high-fructose corn syrup which worsen inflammation",
+          "Refined carbohydrates and white flour products",
+          "Excessive alcohol that increases uric acid (especially relevant for gout)",
+          "High-salt foods that can cause water retention and joint swelling"
+        ],
+        "hydration": "Drink 8–10 glasses of water daily. Proper hydration maintains synovial fluid in joints which acts as a lubricant and shock absorber."
+      },
+      "lifestyle": {
+        "exercise": "Regular low-impact exercise is essential — it strengthens muscles around joints, reduces stiffness, and maintains function. Swimming, cycling, yoga, and tai chi are excellent choices. Avoid high-impact activities during flares.",
+        "sleep": "Quality sleep is critical for managing arthritis pain and fatigue. 7–9 hours is recommended. Use supportive pillows and mattresses. Morning stiffness is common — gentle warm-up stretches upon waking help.",
+        "stress_management": "Stress amplifies pain perception in arthritis. Practice mindfulness, meditation, and pain management techniques. Cognitive behavioral therapy for chronic pain is highly effective.",
+        "general_tips": [
+          "Apply heat before activity to warm up joints and cold therapy after to reduce swelling",
+          "Maintain a healthy weight — each kilogram lost reduces knee joint pressure by 4 kilograms",
+          "Use assistive devices (ergonomic tools, joint supports, walking aids) to protect joints",
+          "Consider occupational therapy to adapt daily activities and minimize joint stress"
+        ]
+      }
+    }
+  ]
+}
