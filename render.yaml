@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: healthcare-recommendation-api
+    env: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:////data/healthcare.db
+      - key: PYTHON_VERSION
+        value: 3.10.0
+    disk:
+      name: healthcare-db-disk
+      mountPath: /data
+      sizeGB: 1
